@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935E4C0C24A8948600329F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C0B24A8948600329F63 /* main.m */; };
+		935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1224A8949500329F63 /* IsBalancedTree.cpp */; };
+		935E4C3A24A8949600329F63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1324A8949500329F63 /* main.cpp */; };
+		935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */; };
+		935E4C3C24A8949600329F63 /* MySqrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1A24A8949500329F63 /* MySqrt.cpp */; };
+		935E4C3D24A8949600329F63 /* 旋转数组的最小数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1B24A8949500329F63 /* 旋转数组的最小数字.cpp */; };
+		935E4C3E24A8949600329F63 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1C24A8949500329F63 /* BinarySearch.cpp */; };
+		935E4C3F24A8949600329F63 /* MergeSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1D24A8949500329F63 /* MergeSpace.cpp */; };
+		935E4C4024A8949600329F63 /* RemoveNthFromEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1F24A8949500329F63 /* RemoveNthFromEnd.cpp */; };
+		935E4C4124A8949600329F63 /* LRUAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2024A8949500329F63 /* LRUAlgorithm.cpp */; };
+		935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2124A8949500329F63 /* MergeTree.cpp */; };
+		935E4C4324A8949600329F63 /* DeleteNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2224A8949500329F63 /* DeleteNode.cpp */; };
+		935E4C4424A8949600329F63 /* MergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2324A8949500329F63 /* MergeTwoLists.cpp */; };
+		935E4C4524A8949600329F63 /* LowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2724A8949500329F63 /* LowestCommonAncestor.cpp */; };
+		935E4C4624A8949600329F63 /* 快速排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2A24A8949500329F63 /* 快速排序.cpp */; };
+		935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C2F24A8949500329F63 /* MyCircularQueue.cpp */; };
+		935E4C4824A8949600329F63 /* QueueWithTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3024A8949500329F63 /* QueueWithTwoStacks.cpp */; };
+		935E4C4924A8949600329F63 /* MyQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3124A8949500329F63 /* MyQueue.cpp */; };
+		935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3324A8949500329F63 /* MyLinkedList.cpp */; };
+		935E4C4B24A8949600329F63 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3424A8949500329F63 /* ReverseList.cpp */; };
+		935E4C4C24A8949600329F63 /* ReversePartList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3724A8949500329F63 /* ReversePartList.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		935E4C0624A8948600329F63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		935E4C0824A8948600329F63 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		935E4C0B24A8948600329F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		935E4C1224A8949500329F63 /* IsBalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsBalancedTree.cpp; sourceTree = "<group>"; };
+		935E4C1324A8949500329F63 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		935E4C1524A8949500329F63 /* MySqrt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MySqrt.hpp; sourceTree = "<group>"; };
+		935E4C1624A8949500329F63 /* 旋转数组的最小数字.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "旋转数组的最小数字.hpp"; sourceTree = "<group>"; };
+		935E4C1724A8949500329F63 /* BinarySearch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinarySearch.hpp; sourceTree = "<group>"; };
+		935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "搜索旋转排序数组.cpp"; sourceTree = "<group>"; };
+		935E4C1924A8949500329F63 /* 搜索旋转排序数组.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "搜索旋转排序数组.hpp"; sourceTree = "<group>"; };
+		935E4C1A24A8949500329F63 /* MySqrt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MySqrt.cpp; sourceTree = "<group>"; };
+		935E4C1B24A8949500329F63 /* 旋转数组的最小数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "旋转数组的最小数字.cpp"; sourceTree = "<group>"; };
+		935E4C1C24A8949500329F63 /* BinarySearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		935E4C1D24A8949500329F63 /* MergeSpace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSpace.cpp; sourceTree = "<group>"; };
+		935E4C1E24A8949500329F63 /* RemoveNthFromEnd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RemoveNthFromEnd.hpp; sourceTree = "<group>"; };
+		935E4C1F24A8949500329F63 /* RemoveNthFromEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNthFromEnd.cpp; sourceTree = "<group>"; };
+		935E4C2024A8949500329F63 /* LRUAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUAlgorithm.cpp; sourceTree = "<group>"; };
+		935E4C2124A8949500329F63 /* MergeTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTree.cpp; sourceTree = "<group>"; };
+		935E4C2224A8949500329F63 /* DeleteNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteNode.cpp; sourceTree = "<group>"; };
+		935E4C2324A8949500329F63 /* MergeTwoLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoLists.cpp; sourceTree = "<group>"; };
+		935E4C2424A8949500329F63 /* MyLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyLinkedList.hpp; sourceTree = "<group>"; };
+		935E4C2524A8949500329F63 /* ReverseList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReverseList.hpp; sourceTree = "<group>"; };
+		935E4C2624A8949500329F63 /* MergeTwoLists.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoLists.hpp; sourceTree = "<group>"; };
+		935E4C2724A8949500329F63 /* LowestCommonAncestor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowestCommonAncestor.cpp; sourceTree = "<group>"; };
+		935E4C2824A8949500329F63 /* DeleteNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DeleteNode.hpp; sourceTree = "<group>"; };
+		935E4C2A24A8949500329F63 /* 快速排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "快速排序.cpp"; sourceTree = "<group>"; };
+		935E4C2B24A8949500329F63 /* 快速排序.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "快速排序.hpp"; sourceTree = "<group>"; };
+		935E4C2D24A8949500329F63 /* QueueWithTwoStacks.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QueueWithTwoStacks.hpp; sourceTree = "<group>"; };
+		935E4C2E24A8949500329F63 /* MyQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyQueue.hpp; sourceTree = "<group>"; };
+		935E4C2F24A8949500329F63 /* MyCircularQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyCircularQueue.cpp; sourceTree = "<group>"; };
+		935E4C3024A8949500329F63 /* QueueWithTwoStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueueWithTwoStacks.cpp; sourceTree = "<group>"; };
+		935E4C3124A8949500329F63 /* MyQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyQueue.cpp; sourceTree = "<group>"; };
+		935E4C3224A8949500329F63 /* MyCircularQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyCircularQueue.hpp; sourceTree = "<group>"; };
+		935E4C3324A8949500329F63 /* MyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyLinkedList.cpp; sourceTree = "<group>"; };
+		935E4C3424A8949500329F63 /* ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
+		935E4C3524A8949500329F63 /* LowestCommonAncestor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LowestCommonAncestor.hpp; sourceTree = "<group>"; };
+		935E4C3624A8949500329F63 /* MergeSpace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeSpace.hpp; sourceTree = "<group>"; };
+		935E4C3724A8949500329F63 /* ReversePartList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReversePartList.cpp; sourceTree = "<group>"; };
+		935E4C3824A8949500329F63 /* ReversePartList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReversePartList.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935E4C0524A8948600329F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		935E4BFF24A8948600329F63 = {
+			isa = PBXGroup;
+			children = (
+				935E4C0A24A8948600329F63 /* MyAlgorithm */,
+				935E4C0924A8948600329F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		935E4C0924A8948600329F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				935E4C0824A8948600329F63 /* MyAlgorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		935E4C0A24A8948600329F63 /* MyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				935E4C1424A8949500329F63 /* 查找和排序 */,
+				935E4C2C24A8949500329F63 /* 队列 */,
+				935E4C2924A8949500329F63 /* 排序 */,
+				935E4C2224A8949500329F63 /* DeleteNode.cpp */,
+				935E4C2824A8949500329F63 /* DeleteNode.hpp */,
+				935E4C1224A8949500329F63 /* IsBalancedTree.cpp */,
+				935E4C2724A8949500329F63 /* LowestCommonAncestor.cpp */,
+				935E4C3524A8949500329F63 /* LowestCommonAncestor.hpp */,
+				935E4C2024A8949500329F63 /* LRUAlgorithm.cpp */,
+				935E4C1324A8949500329F63 /* main.cpp */,
+				935E4C1D24A8949500329F63 /* MergeSpace.cpp */,
+				935E4C3624A8949500329F63 /* MergeSpace.hpp */,
+				935E4C2124A8949500329F63 /* MergeTree.cpp */,
+				935E4C2324A8949500329F63 /* MergeTwoLists.cpp */,
+				935E4C2624A8949500329F63 /* MergeTwoLists.hpp */,
+				935E4C3324A8949500329F63 /* MyLinkedList.cpp */,
+				935E4C2424A8949500329F63 /* MyLinkedList.hpp */,
+				935E4C1F24A8949500329F63 /* RemoveNthFromEnd.cpp */,
+				935E4C1E24A8949500329F63 /* RemoveNthFromEnd.hpp */,
+				935E4C3424A8949500329F63 /* ReverseList.cpp */,
+				935E4C2524A8949500329F63 /* ReverseList.hpp */,
+				935E4C3724A8949500329F63 /* ReversePartList.cpp */,
+				935E4C3824A8949500329F63 /* ReversePartList.hpp */,
+				935E4C0B24A8948600329F63 /* main.m */,
+			);
+			path = MyAlgorithm;
+			sourceTree = "<group>";
+		};
+		935E4C1424A8949500329F63 /* 查找和排序 */ = {
+			isa = PBXGroup;
+			children = (
+				935E4C1524A8949500329F63 /* MySqrt.hpp */,
+				935E4C1624A8949500329F63 /* 旋转数组的最小数字.hpp */,
+				935E4C1724A8949500329F63 /* BinarySearch.hpp */,
+				935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */,
+				935E4C1924A8949500329F63 /* 搜索旋转排序数组.hpp */,
+				935E4C1A24A8949500329F63 /* MySqrt.cpp */,
+				935E4C1B24A8949500329F63 /* 旋转数组的最小数字.cpp */,
+				935E4C1C24A8949500329F63 /* BinarySearch.cpp */,
+			);
+			path = "查找和排序";
+			sourceTree = "<group>";
+		};
+		935E4C2924A8949500329F63 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				935E4C2A24A8949500329F63 /* 快速排序.cpp */,
+				935E4C2B24A8949500329F63 /* 快速排序.hpp */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		935E4C2C24A8949500329F63 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				935E4C2D24A8949500329F63 /* QueueWithTwoStacks.hpp */,
+				935E4C2E24A8949500329F63 /* MyQueue.hpp */,
+				935E4C2F24A8949500329F63 /* MyCircularQueue.cpp */,
+				935E4C3024A8949500329F63 /* QueueWithTwoStacks.cpp */,
+				935E4C3124A8949500329F63 /* MyQueue.cpp */,
+				935E4C3224A8949500329F63 /* MyCircularQueue.hpp */,
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		935E4C0724A8948600329F63 /* MyAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935E4C0F24A8948600329F63 /* Build configuration list for PBXNativeTarget "MyAlgorithm" */;
+			buildPhases = (
+				935E4C0424A8948600329F63 /* Sources */,
+				935E4C0524A8948600329F63 /* Frameworks */,
+				935E4C0624A8948600329F63 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAlgorithm;
+			productName = MyAlgorithm;
+			productReference = 935E4C0824A8948600329F63 /* MyAlgorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		935E4C0024A8948600329F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Charles;
+				TargetAttributes = {
+					935E4C0724A8948600329F63 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 935E4C0324A8948600329F63 /* Build configuration list for PBXProject "MyAlgorithm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 935E4BFF24A8948600329F63;
+			productRefGroup = 935E4C0924A8948600329F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935E4C0724A8948600329F63 /* MyAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		935E4C0424A8948600329F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935E4C0C24A8948600329F63 /* main.m in Sources */,
+				935E4C4924A8949600329F63 /* MyQueue.cpp in Sources */,
+				935E4C4424A8949600329F63 /* MergeTwoLists.cpp in Sources */,
+				935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */,
+				935E4C4B24A8949600329F63 /* ReverseList.cpp in Sources */,
+				935E4C3A24A8949600329F63 /* main.cpp in Sources */,
+				935E4C4C24A8949600329F63 /* ReversePartList.cpp in Sources */,
+				935E4C4824A8949600329F63 /* QueueWithTwoStacks.cpp in Sources */,
+				935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */,
+				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
+				935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */,
+				935E4C3F24A8949600329F63 /* MergeSpace.cpp in Sources */,
+				935E4C4024A8949600329F63 /* RemoveNthFromEnd.cpp in Sources */,
+				935E4C3D24A8949600329F63 /* 旋转数组的最小数字.cpp in Sources */,
+				935E4C4624A8949600329F63 /* 快速排序.cpp in Sources */,
+				935E4C3C24A8949600329F63 /* MySqrt.cpp in Sources */,
+				935E4C4324A8949600329F63 /* DeleteNode.cpp in Sources */,
+				935E4C3E24A8949600329F63 /* BinarySearch.cpp in Sources */,
+				935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */,
+				935E4C4124A8949600329F63 /* LRUAlgorithm.cpp in Sources */,
+				935E4C4524A8949600329F63 /* LowestCommonAncestor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		935E4C0D24A8948600329F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		935E4C0E24A8948600329F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		935E4C1024A8948600329F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNMW98VLVV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		935E4C1124A8948600329F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNMW98VLVV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		935E4C0324A8948600329F63 /* Build configuration list for PBXProject "MyAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935E4C0D24A8948600329F63 /* Debug */,
+				935E4C0E24A8948600329F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935E4C0F24A8948600329F63 /* Build configuration list for PBXNativeTarget "MyAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935E4C1024A8948600329F63 /* Debug */,
+				935E4C1124A8948600329F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 935E4C0024A8948600329F63 /* Project object */;
+}
