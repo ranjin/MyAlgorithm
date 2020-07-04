@@ -17,13 +17,19 @@ public:
     }
     
     int deleteHead(){
-        if (stack1.empty()) {
-            return -1;
+        if (stack2.empty()) {
+            while (!stack1.empty()) {
+                int value = stack1.top();
+                stack2.push(value);
+                stack1.pop();
+            }
         }
-        while (stack1.size() > 0) {
-            int value = stack1.top();
-            stack1.pop();
-            stack2.push(value);
+        if (stack2.empty()) {
+            return -1;
+        }else{
+            int value = stack2.top();
+            stack2.pop();
+            return value;
         }
     }
 };
