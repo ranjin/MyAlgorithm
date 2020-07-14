@@ -30,6 +30,10 @@ public:
             int val = stack2.top();
             stack2.pop();
             return val;
+=======
+            int value = stack2.top();
+            stack2.pop();
+            return value;
         }
     }
 };
