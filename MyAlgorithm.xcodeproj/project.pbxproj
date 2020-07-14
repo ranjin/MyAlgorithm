@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9351901224B5DF65004C6662 /* 判断回文链表.cpp */; };
+		935190E824BDC71F004C6662 /* Test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935190E624BDC71F004C6662 /* Test2.cpp */; };
 		935E4C0C24A8948600329F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C0B24A8948600329F63 /* main.m */; };
 		935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1224A8949500329F63 /* IsBalancedTree.cpp */; };
 		935E4C3A24A8949600329F63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1324A8949500329F63 /* main.cpp */; };
@@ -47,6 +48,8 @@
 /* Begin PBXFileReference section */
 		9351901224B5DF65004C6662 /* 判断回文链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "判断回文链表.cpp"; sourceTree = "<group>"; };
 		9351901324B5DF65004C6662 /* 判断回文链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "判断回文链表.hpp"; sourceTree = "<group>"; };
+		935190E624BDC71F004C6662 /* Test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
+		935190E724BDC71F004C6662 /* Test2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test2.hpp; sourceTree = "<group>"; };
 		935E4C0824A8948600329F63 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		935E4C0B24A8948600329F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		935E4C1224A8949500329F63 /* IsBalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsBalancedTree.cpp; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				935E4C0B24A8948600329F63 /* main.m */,
 				935E4C6D24AD71E200329F63 /* Test.cpp */,
 				935E4C6E24AD71E200329F63 /* Test.hpp */,
+				935190E624BDC71F004C6662 /* Test2.cpp */,
+				935190E724BDC71F004C6662 /* Test2.hpp */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */,
 				9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */,
 				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
+				935190E824BDC71F004C6662 /* Test2.cpp in Sources */,
 				935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */,
 				935E4C3F24A8949600329F63 /* MergeSpace.cpp in Sources */,
 				935E4C4024A8949600329F63 /* RemoveNthFromEnd.cpp in Sources */,
