@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		935E4C0C24A8948600329F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C0B24A8948600329F63 /* main.m */; };
+		3BA20C7324D3A948004B73B6 /* Test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA20C7124D3A948004B73B6 /* Test2.cpp */; };
+		3BA20C8524D81585004B73B6 /* Test3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA20C8324D81585004B73B6 /* Test3.cpp */; };
+		3BDE326C24B0BC980056BE2E /* StackWithOneQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE326A24B0BC980056BE2E /* StackWithOneQueue.cpp */; };
+		3BDE326F24B1A4470056BE2E /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE326D24B1A4470056BE2E /* Test.cpp */; };
 		935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1224A8949500329F63 /* IsBalancedTree.cpp */; };
 		935E4C3A24A8949600329F63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1324A8949500329F63 /* main.cpp */; };
 		935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */; };
@@ -43,8 +46,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3BA20C7124D3A948004B73B6 /* Test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
+		3BA20C7224D3A948004B73B6 /* Test2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test2.hpp; sourceTree = "<group>"; };
+		3BA20C8324D81585004B73B6 /* Test3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test3.cpp; sourceTree = "<group>"; };
+		3BA20C8424D81585004B73B6 /* Test3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test3.hpp; sourceTree = "<group>"; };
+		3BDE326A24B0BC980056BE2E /* StackWithOneQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackWithOneQueue.cpp; sourceTree = "<group>"; };
+		3BDE326B24B0BC980056BE2E /* StackWithOneQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackWithOneQueue.hpp; sourceTree = "<group>"; };
+		3BDE326D24B1A4470056BE2E /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		3BDE326E24B1A4470056BE2E /* Test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
 		935E4C0824A8948600329F63 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		935E4C0B24A8948600329F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		935E4C1224A8949500329F63 /* IsBalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsBalancedTree.cpp; sourceTree = "<group>"; };
 		935E4C1324A8949500329F63 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		935E4C1524A8949500329F63 /* MySqrt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MySqrt.hpp; sourceTree = "<group>"; };
@@ -136,7 +146,10 @@
 				935E4C2524A8949500329F63 /* ReverseList.hpp */,
 				935E4C3724A8949500329F63 /* ReversePartList.cpp */,
 				935E4C3824A8949500329F63 /* ReversePartList.hpp */,
-				935E4C0B24A8948600329F63 /* main.m */,
+				3BDE326D24B1A4470056BE2E /* Test.cpp */,
+				3BDE326E24B1A4470056BE2E /* Test.hpp */,
+				3BA20C7124D3A948004B73B6 /* Test2.cpp */,
+				3BA20C7224D3A948004B73B6 /* Test2.hpp */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -145,13 +158,15 @@
 			isa = PBXGroup;
 			children = (
 				935E4C1524A8949500329F63 /* MySqrt.hpp */,
-				935E4C1624A8949500329F63 /* 旋转数组的最小数字.hpp */,
-				935E4C1724A8949500329F63 /* BinarySearch.hpp */,
-				935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */,
-				935E4C1924A8949500329F63 /* 搜索旋转排序数组.hpp */,
 				935E4C1A24A8949500329F63 /* MySqrt.cpp */,
-				935E4C1B24A8949500329F63 /* 旋转数组的最小数字.cpp */,
+				935E4C1724A8949500329F63 /* BinarySearch.hpp */,
 				935E4C1C24A8949500329F63 /* BinarySearch.cpp */,
+				935E4C1924A8949500329F63 /* 搜索旋转排序数组.hpp */,
+				935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */,
+				935E4C1624A8949500329F63 /* 旋转数组的最小数字.hpp */,
+				935E4C1B24A8949500329F63 /* 旋转数组的最小数字.cpp */,
+				3BA20C8324D81585004B73B6 /* Test3.cpp */,
+				3BA20C8424D81585004B73B6 /* Test3.hpp */,
 			);
 			path = "查找和排序";
 			sourceTree = "<group>";
@@ -169,11 +184,13 @@
 			isa = PBXGroup;
 			children = (
 				935E4C2D24A8949500329F63 /* QueueWithTwoStacks.hpp */,
-				935E4C2E24A8949500329F63 /* MyQueue.hpp */,
-				935E4C2F24A8949500329F63 /* MyCircularQueue.cpp */,
 				935E4C3024A8949500329F63 /* QueueWithTwoStacks.cpp */,
+				935E4C2E24A8949500329F63 /* MyQueue.hpp */,
 				935E4C3124A8949500329F63 /* MyQueue.cpp */,
 				935E4C3224A8949500329F63 /* MyCircularQueue.hpp */,
+				935E4C2F24A8949500329F63 /* MyCircularQueue.cpp */,
+				3BDE326B24B0BC980056BE2E /* StackWithOneQueue.hpp */,
+				3BDE326A24B0BC980056BE2E /* StackWithOneQueue.cpp */,
 			);
 			path = "队列";
 			sourceTree = "<group>";
@@ -235,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935E4C0C24A8948600329F63 /* main.m in Sources */,
+				3BA20C7324D3A948004B73B6 /* Test2.cpp in Sources */,
 				935E4C4924A8949600329F63 /* MyQueue.cpp in Sources */,
 				935E4C4424A8949600329F63 /* MergeTwoLists.cpp in Sources */,
 				935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */,
@@ -243,6 +260,7 @@
 				935E4C3A24A8949600329F63 /* main.cpp in Sources */,
 				935E4C4C24A8949600329F63 /* ReversePartList.cpp in Sources */,
 				935E4C4824A8949600329F63 /* QueueWithTwoStacks.cpp in Sources */,
+				3BDE326F24B1A4470056BE2E /* Test.cpp in Sources */,
 				935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */,
 				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
 				935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */,
@@ -250,10 +268,12 @@
 				935E4C4024A8949600329F63 /* RemoveNthFromEnd.cpp in Sources */,
 				935E4C3D24A8949600329F63 /* 旋转数组的最小数字.cpp in Sources */,
 				935E4C4624A8949600329F63 /* 快速排序.cpp in Sources */,
+				3BDE326C24B0BC980056BE2E /* StackWithOneQueue.cpp in Sources */,
 				935E4C3C24A8949600329F63 /* MySqrt.cpp in Sources */,
 				935E4C4324A8949600329F63 /* DeleteNode.cpp in Sources */,
 				935E4C3E24A8949600329F63 /* BinarySearch.cpp in Sources */,
 				935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */,
+				3BA20C8524D81585004B73B6 /* Test3.cpp in Sources */,
 				935E4C4124A8949600329F63 /* LRUAlgorithm.cpp in Sources */,
 				935E4C4524A8949600329F63 /* LowestCommonAncestor.cpp in Sources */,
 			);
