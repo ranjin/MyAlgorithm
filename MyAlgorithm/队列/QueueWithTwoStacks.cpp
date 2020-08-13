@@ -27,10 +27,6 @@ public:
         if (stack2.empty()) {
             return -1;
         }else{
-            int val = stack2.top();
-            stack2.pop();
-            return val;
-=======
             int value = stack2.top();
             stack2.pop();
             return value;

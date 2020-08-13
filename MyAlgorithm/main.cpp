@@ -31,10 +31,13 @@ int main(int argc, const char * argv[]) {
     queue<int> q;
     q.push(5);
     q.push(13);
-    q.front();
-    q.back();
-    q.pop();
-    if (q.empty()) {
-        
-    }
+    cout << q.front() << endl;
+    cout << q.back() << endl;
+
+//    q.front();
+//    q.back();
+//    q.pop();
+//    if (q.empty()) {
+//
+//    }
 }

@@ -2,87 +2,27 @@
 //  Test2.cpp
 //  MyAlgorithm
 //
-//  Created by ThePixel on 2020/7/14.
+//  Created by 冉金 on 2020/7/31.
 //  Copyright © 2020 Charles. All rights reserved.
 //
 
 #include "Test2.hpp"
-
-class Test2{
-private:
-    struct ListNode{
-        int val;
-        ListNode *next;
-        ListNode(int x): val(x), next(NULL){}
-    };
+class binarySearch{
+    
 public:
-    ListNode* oddEventList(ListNode *head){
-        if (head == NULL) {
-            return NULL;
+    int search(vector<int> &nums, int target){
+        int left = 0;
+        int right = nums.size()-1;
+        while (left <= right) {
+            int mid = left + (right-left)/2;
+            if (nums[mid] == target) {
+                return mid;
+            }else if (nums[mid] < target){
+                left = mid + 1;
+            }else if (nums[mid] > target){
+                right = mid-1;
+            }
         }
-        /**
-         初始化：
-         奇：head + odd
-         偶：evenHead + even
-         */
-        
-        ListNode *odd = head;
-        ListNode *even = head->next;
-        ListNode *evenHead = even;
-        while (even != NULL && even->next != NULL) {
-            odd->next = even->next;
-            odd = odd->next;
-            
-            even->next = odd->next;
-            even = even->next;
-        }
-        odd->next = evenHead;
-        return head;
+        return -1;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,181 +2,132 @@
 //  Test.cpp
 //  MyAlgorithm
 //
-//  Created by ThePixel on 2020/7/2.
+//  Created by 冉金 on 2020/7/5.
 //  Copyright © 2020 Charles. All rights reserved.
 //
 
 #include "Test.hpp"
-
-
-
-class Test{
-private:
+class Solution{
     struct ListNode{
         int val;
         ListNode *next;
-        ListNode(int x) : val(x), next(nullptr){}
+        ListNode(int x) : val(x), next(NULL){}
     };
-    
 public:
-    void bubble_sort(vector<int>& nums, int len){
-        int i, j;
-        for (i = 0; i < nums.size()-1; i++) {
-            for (j = 0; j < nums.size()-i-1; j++) {
-                if (nums[j] > nums[j+1]) {
-                    int temp = nums[j];
-                    nums[j] = nums[j+1];
-                    nums[j+1] = temp;
-                }
+    vector<int> sortArrayByParity(vector<int>& A){
+        int i = 0;
+        int j = (int)A.size() - 1;
+        while (i < j) {
+            while (A[i] % 2 == 0 && i < j) {
+                i++;
             }
-        }
-    }
-    bool isPalindrome(ListNode *head){
-        ListNode *slow = head;
-        ListNode *fast = head;
-        if (fast != NULL && fast->next != NULL) {
-            fast = fast->next->next;
-            slow = slow->next;
-        }
-        if (fast != NULL) {
-            //链表个数为奇数
-            slow = slow->next;
-        }
-        //从slow开始反转后面的链表
-        ListNode *left = head;
-        ListNode *right = reverse(slow);
-        while (right != NULL) {
-            if (left->val != right->val) {
-                return false;
+            while (A[j] % 2 == 1 && i < j) {
+                j--;
             }
-            left = left->next;
-            right = right->next;
+            swap(A[i], A[j]);
         }
-        return true;
+        return A;
     }
-    //反转链表
-    ListNode *reverse(ListNode *head){
-        ListNode *pre = NULL;
-        ListNode *cur = head;
-        while (cur != NULL) {
-            ListNode *t = cur->next;
-            cur->next = pre;
-            pre = cur;
-            cur = t;
-        }
-        return pre;
-    }
-//public:
-//    vector<int> twoSum(vector<int>& nums, int target){
-//        sort(nums.begin(), nums.end());
+    
+//    int lengthOfLongestSubstring(string s) {
 //        int left = 0;
-//        int right = (int)nums.size() - 1;
+//        int right = 0;
+//        unordered_map<char, int> window;
+//        int res = 0;    //记录最长长度
+//        while (right < s.size()) {
+//            char c1 = s[right];
+//            window[c1]++;
+//            right++;
+//            //如果window中出现重复字符
+//            //开始移动left缩小窗口
+//            while (window[c1] > 1) {
+//                char c2 = s[left];
+//                window[c2]--;
+//                left++;
+//            }
+//            //每次移动right增大窗口时更新res,而不是在移动left缩小窗口时更新
+//            res = max(res, right - left);
+//        }
+//        return res;
+//    }
+//
+//
+//    void reverse(vector<int>& nums){
+//        int left = 0;
+//        int right = (int)nums.size()-1;
+//        while (left < right) {
+//            int temp = nums[left];
+//            nums[left] = nums[right];
+//            nums[right] = temp;
+//            left++;
+//            right--;
+//        }
+//    }
+//
+//    vector<int> twoSum(vector<int>& nums, int target){
+//        int left = 0;
+//        int right = (int)nums.size()-1;
 //        while (left < right) {
 //            int sum = nums[left] + nums[right];
-//            if (sum < target) {
-//                left++;
+//            if (sum == target) {
+//                return {left, right};
 //            }else if (sum > target){
 //                right--;
-//            }else if (sum == target){
-//                return {nums[left], nums[right]};
+//            }else if (sum < target){
+//                left++;
 //            }
 //        }
 //        return {-1, -1};
 //    }
-//public:
-//    ListNode reverse(ListNode head) {
-//        if (head.next == null) return head;
-//        ListNode last = reverse(head.next);
-//        head.next.next = head;
-//        head.next = null;
-//        return last;
+//    ListNode* getKthFromEnd(ListNode* head, int k) {
+//        ListNode *slow = head;
+//        ListNode *fast = head;
+//        while (k-- > 0) {
+//            fast = fast->next;
+//        }
+//        while (fast != NULL) {
+//            fast = fast->next;
+//            slow = slow->next;
+//        }
+//        return slow;
 //    }
-//
-//}
-/**
- 双端队列的基本操作
- class deque {
-     // 在队头插入元素 n
-     void push_front(int n);
- 
-     // 在队尾插入元素 n
-     void push_back(int n);
- 
-     // 在队头删除元素
-     void pop_front();
- 
-     // 在队尾删除元素
-     void pop_back();
- 
-     // 返回队头元素
-     int front();
- 
-     // 返回队尾元素
-     int back();
- }
- */
-class MonotonicQueue{
-private:
-    deque<int> data;    //双端队列
-public:
-    /**
-     单调队列的push方法：在队尾添加元素，但是需要把前面比新元素小的元素都删掉
-     */
-    void push(int n){
-        //data.back():返回队尾元素
-        while (!data.empty() && n > data.back()) {
-            //在队尾删除元素
-            data.pop_back();
-        }
-        
-        //在队尾插入元素
-        data.push_back(n);
-    }
+//    ListNode *middleNode(ListNode *head){
+//        ListNode *slow = head;
+//        ListNode *fast = head;
+//        while (fast != NULL && fast->next != NULL) {
+//            fast = fast->next->next;
+//            slow = slow->next;
+//        }
+//        return slow;
+//    }
     
-    //如果每个元素加入时都这样操作，单调队列中的元素大小会保持一个单调递减的顺序，因此max()可以这样写
-    int max(){
-        return data.front();
-    }
-    
-    //删除队头元素
-    void pop(int n){
-        if (!data.empty() && data.front() == n) {
-            data.pop_front();
-        }
-    }
+//    ListNode *detectCycle(ListNode *head){
+//        ListNode *fast = head;
+//        ListNode *slow = head;
+//        while (fast != NULL && fast->next != NULL) {
+//            fast = fast->next->next;
+//            slow = slow->next;
+//            if (slow == fast) {
+//                break;
+//            }
+//        }
+//        slow = head;
+//        while (slow != fast) {
+//            fast = fast->next;
+//            slow = slow->next;
+//        }
+//        return slow;
+//    }
+//    bool hasCycle(ListNode *head){
+//        ListNode *slow = head;
+//        ListNode *fast = head;
+//        while (fast != NULL && fast->next != NULL) {
+//            fast = fast->next->next;
+//            slow = slow->next;
+//            if (fast == slow) {
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 };
-
-vector<int> maxSlidingWindow(vector<int>& nums, int k){
-    MonotonicQueue window;
-    vector<int> res;
-    for (int i = 0; i < nums.size(); i++) {
-        if (i < k-1) {  //先填满窗口的前k-1
-            window.push(nums[i]);
-        }else{  //窗口向前滑动
-            window.push(nums[i]);
-            res.push_back(window.max());
-            window.pop(nums[i-k+1]);
-        }
-    }
-    return res;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
