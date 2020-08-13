@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930B675324DAA830007255D7 /* Test10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 930B675124DAA830007255D7 /* Test10.cpp */; };
+		932AD08824C680340024CD97 /* Test3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD08624C680340024CD97 /* Test3.cpp */; };
+		932AD0D224C9A9A60024CD97 /* test4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD0D024C9A9A60024CD97 /* test4.cpp */; };
+		932AD24924CEA8D80024CD97 /* Test7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD24724CEA8D80024CD97 /* Test7.cpp */; };
+		932AD24C24CFD74D0024CD97 /* Test8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD24A24CFD74D0024CD97 /* Test8.cpp */; };
+		932AD25224D036430024CD97 /* 2两数相加.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD25024D036430024CD97 /* 2两数相加.cpp */; };
 		9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9351901224B5DF65004C6662 /* 判断回文链表.cpp */; };
 		935190E824BDC71F004C6662 /* Test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935190E624BDC71F004C6662 /* Test2.cpp */; };
 		935190EB24BE9FB8004C6662 /* 88_合并两个有序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935190E924BE9FB8004C6662 /* 88_合并两个有序数组.cpp */; };
@@ -48,6 +54,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		930B675124DAA830007255D7 /* Test10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test10.cpp; sourceTree = "<group>"; };
+		930B675224DAA830007255D7 /* Test10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test10.hpp; sourceTree = "<group>"; };
+		932AD08624C680340024CD97 /* Test3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test3.cpp; sourceTree = "<group>"; };
+		932AD08724C680340024CD97 /* Test3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test3.hpp; sourceTree = "<group>"; };
+		932AD0D024C9A9A60024CD97 /* test4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test4.cpp; sourceTree = "<group>"; };
+		932AD0D124C9A9A60024CD97 /* test4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test4.hpp; sourceTree = "<group>"; };
+		932AD24724CEA8D80024CD97 /* Test7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test7.cpp; sourceTree = "<group>"; };
+		932AD24824CEA8D80024CD97 /* Test7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test7.hpp; sourceTree = "<group>"; };
+		932AD24A24CFD74D0024CD97 /* Test8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test8.cpp; sourceTree = "<group>"; };
+		932AD24B24CFD74D0024CD97 /* Test8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test8.hpp; sourceTree = "<group>"; };
+		932AD25024D036430024CD97 /* 2两数相加.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2两数相加.cpp"; sourceTree = "<group>"; };
+		932AD25124D036430024CD97 /* 2两数相加.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "2两数相加.hpp"; sourceTree = "<group>"; };
 		9351901224B5DF65004C6662 /* 判断回文链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "判断回文链表.cpp"; sourceTree = "<group>"; };
 		9351901324B5DF65004C6662 /* 判断回文链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "判断回文链表.hpp"; sourceTree = "<group>"; };
 		935190E624BDC71F004C6662 /* Test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
@@ -114,6 +132,8 @@
 			children = (
 				9351901324B5DF65004C6662 /* 判断回文链表.hpp */,
 				9351901224B5DF65004C6662 /* 判断回文链表.cpp */,
+				932AD25024D036430024CD97 /* 2两数相加.cpp */,
+				932AD25124D036430024CD97 /* 2两数相加.hpp */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -166,6 +186,16 @@
 				935E4C6E24AD71E200329F63 /* Test.hpp */,
 				935190E624BDC71F004C6662 /* Test2.cpp */,
 				935190E724BDC71F004C6662 /* Test2.hpp */,
+				932AD08624C680340024CD97 /* Test3.cpp */,
+				932AD08724C680340024CD97 /* Test3.hpp */,
+				932AD0D024C9A9A60024CD97 /* test4.cpp */,
+				932AD0D124C9A9A60024CD97 /* test4.hpp */,
+				932AD24724CEA8D80024CD97 /* Test7.cpp */,
+				932AD24824CEA8D80024CD97 /* Test7.hpp */,
+				932AD24A24CFD74D0024CD97 /* Test8.cpp */,
+				932AD24B24CFD74D0024CD97 /* Test8.hpp */,
+				930B675124DAA830007255D7 /* Test10.cpp */,
+				930B675224DAA830007255D7 /* Test10.hpp */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -280,8 +310,10 @@
 				935E4C4824A8949600329F63 /* QueueWithTwoStacks.cpp in Sources */,
 				935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */,
 				9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */,
+				932AD24924CEA8D80024CD97 /* Test7.cpp in Sources */,
 				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
 				935190E824BDC71F004C6662 /* Test2.cpp in Sources */,
+				932AD0D224C9A9A60024CD97 /* test4.cpp in Sources */,
 				935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */,
 				935E4C3F24A8949600329F63 /* MergeSpace.cpp in Sources */,
 				935190EB24BE9FB8004C6662 /* 88_合并两个有序数组.cpp in Sources */,
@@ -289,9 +321,13 @@
 				935E4C3D24A8949600329F63 /* 旋转数组的最小数字.cpp in Sources */,
 				935E4C4624A8949600329F63 /* 快速排序.cpp in Sources */,
 				935E4C3C24A8949600329F63 /* MySqrt.cpp in Sources */,
+				932AD25224D036430024CD97 /* 2两数相加.cpp in Sources */,
 				935E4C4324A8949600329F63 /* DeleteNode.cpp in Sources */,
+				932AD24C24CFD74D0024CD97 /* Test8.cpp in Sources */,
 				935E4C3E24A8949600329F63 /* BinarySearch.cpp in Sources */,
 				935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */,
+				930B675324DAA830007255D7 /* Test10.cpp in Sources */,
+				932AD08824C680340024CD97 /* Test3.cpp in Sources */,
 				935E4C4124A8949600329F63 /* LRUAlgorithm.cpp in Sources */,
 				935E4C4524A8949600329F63 /* LowestCommonAncestor.cpp in Sources */,
 			);
