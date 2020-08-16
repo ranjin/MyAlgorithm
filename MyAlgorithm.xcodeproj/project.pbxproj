@@ -13,6 +13,14 @@
 		3BA20C8C24DFD04E004B73B6 /* 判断子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA20C8A24DFD04E004B73B6 /* 判断子序列.cpp */; };
 		3BDE326C24B0BC980056BE2E /* StackWithOneQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE326A24B0BC980056BE2E /* StackWithOneQueue.cpp */; };
 		3BDE326F24B1A4470056BE2E /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE326D24B1A4470056BE2E /* Test.cpp */; };
+		930B675324DAA830007255D7 /* Test10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 930B675124DAA830007255D7 /* Test10.cpp */; };
+		932AD08824C680340024CD97 /* Test3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD08624C680340024CD97 /* Test3.cpp */; };
+		932AD0D224C9A9A60024CD97 /* test4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD0D024C9A9A60024CD97 /* test4.cpp */; };
+		932AD24924CEA8D80024CD97 /* Test7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD24724CEA8D80024CD97 /* Test7.cpp */; };
+		932AD24C24CFD74D0024CD97 /* Test8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD24A24CFD74D0024CD97 /* Test8.cpp */; };
+		932AD25224D036430024CD97 /* 2两数相加.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932AD25024D036430024CD97 /* 2两数相加.cpp */; };
+		9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9351901224B5DF65004C6662 /* 判断回文链表.cpp */; };
+		935190E824BDC71F004C6662 /* Test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935190E624BDC71F004C6662 /* Test2.cpp */; };
 		935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1224A8949500329F63 /* IsBalancedTree.cpp */; };
 		935E4C3A24A8949600329F63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1324A8949500329F63 /* main.cpp */; };
 		935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C1824A8949500329F63 /* 搜索旋转排序数组.cpp */; };
@@ -33,6 +41,11 @@
 		935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3324A8949500329F63 /* MyLinkedList.cpp */; };
 		935E4C4B24A8949600329F63 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3424A8949500329F63 /* ReverseList.cpp */; };
 		935E4C4C24A8949600329F63 /* ReversePartList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 935E4C3724A8949500329F63 /* ReversePartList.cpp */; };
+		9362FCF124E5002E00158DB2 /* 剑指 Offer 03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9362FCEF24E5002E00158DB2 /* 剑指 Offer 03.cpp */; };
+		9362FCFC24E5203500158DB2 /* 160-相交链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9362FCFA24E5203500158DB2 /* 160-相交链表.cpp */; };
+		9362FD0024E52CA600158DB2 /* 344-反转字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9362FCFE24E52CA600158DB2 /* 344-反转字符串.cpp */; };
+		9362FD0324E52E8500158DB2 /* 26-删除排序数组中的重复项.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9362FD0124E52E8500158DB2 /* 26-删除排序数组中的重复项.cpp */; };
+		9362FD0624E532D800158DB2 /* 83-删除排序链表中的重复元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9362FD0424E532D800158DB2 /* 83-删除排序链表中的重复元素.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +73,20 @@
 		3BDE326B24B0BC980056BE2E /* StackWithOneQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackWithOneQueue.hpp; sourceTree = "<group>"; };
 		3BDE326D24B1A4470056BE2E /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		3BDE326E24B1A4470056BE2E /* Test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+		930B675124DAA830007255D7 /* Test10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test10.cpp; sourceTree = "<group>"; };
+		930B675224DAA830007255D7 /* Test10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test10.hpp; sourceTree = "<group>"; };
+		932AD08624C680340024CD97 /* Test3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test3.cpp; sourceTree = "<group>"; };
+		932AD08724C680340024CD97 /* Test3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test3.hpp; sourceTree = "<group>"; };
+		932AD0D024C9A9A60024CD97 /* test4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test4.cpp; sourceTree = "<group>"; };
+		932AD0D124C9A9A60024CD97 /* test4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test4.hpp; sourceTree = "<group>"; };
+		932AD24724CEA8D80024CD97 /* Test7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test7.cpp; sourceTree = "<group>"; };
+		932AD24824CEA8D80024CD97 /* Test7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test7.hpp; sourceTree = "<group>"; };
+		932AD24A24CFD74D0024CD97 /* Test8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test8.cpp; sourceTree = "<group>"; };
+		932AD24B24CFD74D0024CD97 /* Test8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test8.hpp; sourceTree = "<group>"; };
+		932AD25024D036430024CD97 /* 2两数相加.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2两数相加.cpp"; sourceTree = "<group>"; };
+		9351901224B5DF65004C6662 /* 判断回文链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "判断回文链表.cpp"; sourceTree = "<group>"; };
+		935190E624BDC71F004C6662 /* Test2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
+		935190E724BDC71F004C6662 /* Test2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test2.hpp; sourceTree = "<group>"; };
 		935E4C0824A8948600329F63 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		935E4C1224A8949500329F63 /* IsBalancedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsBalancedTree.cpp; sourceTree = "<group>"; };
 		935E4C1324A8949500329F63 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -97,6 +124,20 @@
 		935E4C3624A8949500329F63 /* MergeSpace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeSpace.hpp; sourceTree = "<group>"; };
 		935E4C3724A8949500329F63 /* ReversePartList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReversePartList.cpp; sourceTree = "<group>"; };
 		935E4C3824A8949500329F63 /* ReversePartList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReversePartList.hpp; sourceTree = "<group>"; };
+		9362FCEF24E5002E00158DB2 /* 剑指 Offer 03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 03.cpp"; sourceTree = "<group>"; };
+		9362FCF024E5002E00158DB2 /* 剑指 Offer 03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 03.hpp"; sourceTree = "<group>"; };
+		9362FCF324E518FE00158DB2 /* 判断回文链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "判断回文链表.cpp"; sourceTree = "<group>"; };
+		9362FCF424E518FE00158DB2 /* 2两数相加.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2两数相加.cpp"; sourceTree = "<group>"; };
+		9362FCF524E518FE00158DB2 /* 判断回文链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "判断回文链表.hpp"; sourceTree = "<group>"; };
+		9362FCF624E518FE00158DB2 /* 2两数相加.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "2两数相加.hpp"; sourceTree = "<group>"; };
+		9362FCFA24E5203500158DB2 /* 160-相交链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "160-相交链表.cpp"; sourceTree = "<group>"; };
+		9362FCFB24E5203500158DB2 /* 160-相交链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "160-相交链表.hpp"; sourceTree = "<group>"; };
+		9362FCFE24E52CA600158DB2 /* 344-反转字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "344-反转字符串.cpp"; sourceTree = "<group>"; };
+		9362FCFF24E52CA600158DB2 /* 344-反转字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "344-反转字符串.hpp"; sourceTree = "<group>"; };
+		9362FD0124E52E8500158DB2 /* 26-删除排序数组中的重复项.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "26-删除排序数组中的重复项.cpp"; sourceTree = "<group>"; };
+		9362FD0224E52E8500158DB2 /* 26-删除排序数组中的重复项.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "26-删除排序数组中的重复项.hpp"; sourceTree = "<group>"; };
+		9362FD0424E532D800158DB2 /* 83-删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "83-删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
+		9362FD0524E532D800158DB2 /* 83-删除排序链表中的重复元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "83-删除排序链表中的重复元素.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +165,7 @@
 			children = (
 				935E4C0A24A8948600329F63 /* MyAlgorithm */,
 				935E4C0924A8948600329F63 /* Products */,
+				9362FCED24E4FFC400158DB2 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,7 +180,13 @@
 		935E4C0A24A8948600329F63 /* MyAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				3BA20C8924DFD02F004B73B6 /* 子序列 */,
+=======
+				9362FCFD24E52C9000158DB2 /* 字符串 */,
+				9362FCF224E518FE00158DB2 /* 链表 */,
+				9362FCEE24E4FFE800158DB2 /* 数组 */,
+>>>>>>> 9ecd852f87fdae116f2e78fe437cfa164f9485b3
 				935E4C1424A8949500329F63 /* 查找和排序 */,
 				935E4C2C24A8949500329F63 /* 队列 */,
 				935E4C2924A8949500329F63 /* 排序 */,
@@ -162,6 +210,18 @@
 				935E4C2524A8949500329F63 /* ReverseList.hpp */,
 				935E4C3724A8949500329F63 /* ReversePartList.cpp */,
 				935E4C3824A8949500329F63 /* ReversePartList.hpp */,
+				935190E624BDC71F004C6662 /* Test2.cpp */,
+				935190E724BDC71F004C6662 /* Test2.hpp */,
+				932AD08624C680340024CD97 /* Test3.cpp */,
+				932AD08724C680340024CD97 /* Test3.hpp */,
+				932AD0D024C9A9A60024CD97 /* test4.cpp */,
+				932AD0D124C9A9A60024CD97 /* test4.hpp */,
+				932AD24724CEA8D80024CD97 /* Test7.cpp */,
+				932AD24824CEA8D80024CD97 /* Test7.hpp */,
+				932AD24A24CFD74D0024CD97 /* Test8.cpp */,
+				932AD24B24CFD74D0024CD97 /* Test8.hpp */,
+				930B675124DAA830007255D7 /* Test10.cpp */,
+				930B675224DAA830007255D7 /* Test10.hpp */,
 				3BDE326D24B1A4470056BE2E /* Test.cpp */,
 				3BDE326E24B1A4470056BE2E /* Test.hpp */,
 				3BA20C7124D3A948004B73B6 /* Test2.cpp */,
@@ -211,6 +271,50 @@
 				3BDE326A24B0BC980056BE2E /* StackWithOneQueue.cpp */,
 			);
 			path = "队列";
+			sourceTree = "<group>";
+		};
+		9362FCED24E4FFC400158DB2 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				9351901224B5DF65004C6662 /* 判断回文链表.cpp */,
+				932AD25024D036430024CD97 /* 2两数相加.cpp */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		9362FCEE24E4FFE800158DB2 /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				9362FCEF24E5002E00158DB2 /* 剑指 Offer 03.cpp */,
+				9362FCF024E5002E00158DB2 /* 剑指 Offer 03.hpp */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		9362FCF224E518FE00158DB2 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				9362FCF524E518FE00158DB2 /* 判断回文链表.hpp */,
+				9362FCF324E518FE00158DB2 /* 判断回文链表.cpp */,
+				9362FCF624E518FE00158DB2 /* 2两数相加.hpp */,
+				9362FCF424E518FE00158DB2 /* 2两数相加.cpp */,
+				9362FCFA24E5203500158DB2 /* 160-相交链表.cpp */,
+				9362FCFB24E5203500158DB2 /* 160-相交链表.hpp */,
+				9362FD0424E532D800158DB2 /* 83-删除排序链表中的重复元素.cpp */,
+				9362FD0524E532D800158DB2 /* 83-删除排序链表中的重复元素.hpp */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		9362FCFD24E52C9000158DB2 /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				9362FCFE24E52CA600158DB2 /* 344-反转字符串.cpp */,
+				9362FCFF24E52CA600158DB2 /* 344-反转字符串.hpp */,
+				9362FD0124E52E8500158DB2 /* 26-删除排序数组中的重复项.cpp */,
+				9362FD0224E52E8500158DB2 /* 26-删除排序数组中的重复项.hpp */,
+			);
+			path = "字符串";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +377,7 @@
 				3BA20C7324D3A948004B73B6 /* Test2.cpp in Sources */,
 				935E4C4924A8949600329F63 /* MyQueue.cpp in Sources */,
 				935E4C4424A8949600329F63 /* MergeTwoLists.cpp in Sources */,
+				9362FCF124E5002E00158DB2 /* 剑指 Offer 03.cpp in Sources */,
 				935E4C3924A8949600329F63 /* IsBalancedTree.cpp in Sources */,
 				935E4C4B24A8949600329F63 /* ReverseList.cpp in Sources */,
 				935E4C3A24A8949600329F63 /* main.cpp in Sources */,
@@ -280,19 +385,38 @@
 				935E4C4824A8949600329F63 /* QueueWithTwoStacks.cpp in Sources */,
 				3BDE326F24B1A4470056BE2E /* Test.cpp in Sources */,
 				935E4C4724A8949600329F63 /* MyCircularQueue.cpp in Sources */,
+<<<<<<< HEAD
 				3BA20C8C24DFD04E004B73B6 /* 判断子序列.cpp in Sources */,
+=======
+				9351901424B5DF65004C6662 /* 判断回文链表.cpp in Sources */,
+				932AD24924CEA8D80024CD97 /* Test7.cpp in Sources */,
+				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
+				935190E824BDC71F004C6662 /* Test2.cpp in Sources */,
+				932AD0D224C9A9A60024CD97 /* test4.cpp in Sources */,
+>>>>>>> 9ecd852f87fdae116f2e78fe437cfa164f9485b3
 				935E4C4A24A8949600329F63 /* MyLinkedList.cpp in Sources */,
 				935E4C4224A8949600329F63 /* MergeTree.cpp in Sources */,
+				9362FD0024E52CA600158DB2 /* 344-反转字符串.cpp in Sources */,
+				9362FD0624E532D800158DB2 /* 83-删除排序链表中的重复元素.cpp in Sources */,
 				935E4C3F24A8949600329F63 /* MergeSpace.cpp in Sources */,
 				935E4C4024A8949600329F63 /* RemoveNthFromEnd.cpp in Sources */,
 				935E4C3D24A8949600329F63 /* 旋转数组的最小数字.cpp in Sources */,
+				9362FCFC24E5203500158DB2 /* 160-相交链表.cpp in Sources */,
 				935E4C4624A8949600329F63 /* 快速排序.cpp in Sources */,
 				3BDE326C24B0BC980056BE2E /* StackWithOneQueue.cpp in Sources */,
 				935E4C3C24A8949600329F63 /* MySqrt.cpp in Sources */,
+<<<<<<< HEAD
 				3B0AAB8424DFF662005C1774 /* 路径总和.cpp in Sources */,
+=======
+				932AD25224D036430024CD97 /* 2两数相加.cpp in Sources */,
+>>>>>>> 9ecd852f87fdae116f2e78fe437cfa164f9485b3
 				935E4C4324A8949600329F63 /* DeleteNode.cpp in Sources */,
+				932AD24C24CFD74D0024CD97 /* Test8.cpp in Sources */,
 				935E4C3E24A8949600329F63 /* BinarySearch.cpp in Sources */,
 				935E4C3B24A8949600329F63 /* 搜索旋转排序数组.cpp in Sources */,
+				930B675324DAA830007255D7 /* Test10.cpp in Sources */,
+				9362FD0324E52E8500158DB2 /* 26-删除排序数组中的重复项.cpp in Sources */,
+				932AD08824C680340024CD97 /* Test3.cpp in Sources */,
 				3BA20C8524D81585004B73B6 /* Test3.cpp in Sources */,
 				935E4C4124A8949600329F63 /* LRUAlgorithm.cpp in Sources */,
 				935E4C4524A8949600329F63 /* LowestCommonAncestor.cpp in Sources */,
