@@ -10,19 +10,37 @@
 class binarySearch{
     
 public:
-    int search(vector<int> &nums, int target){
-        int left = 0;
-        int right = nums.size()-1;
-        while (left <= right) {
-            int mid = left + (right-left)/2;
-            if (nums[mid] == target) {
-                return mid;
-            }else if (nums[mid] < target){
-                left = mid + 1;
-            }else if (nums[mid] > target){
-                right = mid-1;
-            }
+    void bubbleSort()
+    void Qsort(int arr[], int low, int high){
+        if (low >= high) {
+            return;
         }
-        return -1;
+        int i = low;
+        int j = high+1;
+        int key = arr[low];
+        while (true) {
+            //
+            while (arr[i++] < key) {
+                if (i == high) {
+                    break;
+                }
+            }
+            while (arr[j--] > key) {
+                if (j == low) {
+                    break;
+                }
+            }
+            if (i >= j) {
+                break;
+            }
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        int temp = arr[j];
+        arr[j] = arr[low];
+        arr[low] = temp;
+        Qsort(arr, low, j--);
+        Qsort(arr, j++, high);
     }
 };
